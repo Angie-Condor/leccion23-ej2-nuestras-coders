@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+ }
+
+.promocion{
+  margin-top: 30px;
+  width: 60%;
+  height: auto;
+  padding: 0px;
+  display: inline-block;
+}
+
+.promocion h2{
+  text-align: left;
+  margin: 20px 100px;
+  padding: 0;
+}
+
+.line{
+  width: 70px;
+  height: 3px;
+  background-color: black;
+  margin-left: 100px;
+  margin-top: -10px;
+}
+
+.box-coders{
+  margin: 30px 0px;
+  padding: 0;
+}
+
+div.cada-coder{
+  display: inline-block;
+  transition: all 1.0s;
+  position: relative;
+}
+
+.cada-coder img, div .cada-coder{
+  width: 200px;
+  height: 200px;
+  margin: 4px 8px;
+  padding: 0;
+}
+
+.cada-coder:hover img{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+span{
+  color: white;
+  font-style: bold;
+  font-size: 13px;
+  width: 140px;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10000;
+  text-align: right;
+}
